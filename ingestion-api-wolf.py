@@ -458,10 +458,15 @@ print(
     f"{(datetime.now() - global_start).total_seconds():.1f}s"
 )
 if failed_tables:
-    print("Tables en échec :")
+    print("Tables en échec en echeec 2eme commit pull request changement :")
     for t in failed_tables:
         print(f"  - {t}")
 if error_count > 0:
     print(f"Ingestion terminée avec erreurs : {failed_tables}")
 else:
     print("Ingestion WOLF terminée avec succès")
+    print("ok amal")
+    print("ok amal")
+    print("ok amal")
+
+

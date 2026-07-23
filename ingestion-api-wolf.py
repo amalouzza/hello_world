@@ -443,6 +443,7 @@ try:
 except Exception as global_e:
     print("\n" + "=" * 80)
     print(f"ERREUR CRITIQUE GLOBALE durant l'ingestion : {global_e}")
+    print("hello world amaal")
     traceback.print_exc()
 
 # ============================================
